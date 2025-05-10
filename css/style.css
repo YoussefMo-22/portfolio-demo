@@ -36,3 +36,68 @@ nav .logo{
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 50px;
+}
+.mainSection .text-content{
+    width: 50%;
+}
+.mainSection .text-content .hi{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.mainSection .text-content h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.mainSection .text-content h1 span{
+    color: #00a0d1;
+}
+.mainSection .text-content .para{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.mainSection .text-content button{
+    padding: 15px 30px;
+    border-radius: 12px;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #00a0d1;
+    cursor: pointer;
+        color: #fff;
+    text-decoration: none;
+    animation: bounce 1s ease 3s infinite normal none running;
+    transition: 0.3s;
+}
+.mainSection .text-content button:hover{
+    background-color: #005f7b;
+}
+@keyframes bounce {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.mainSection .img-content{
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 25px 1px;
+}
+.mainSection .img-content img{
+    width: 100%;
+    border-radius: 20px;
+}
