@@ -3,7 +3,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px #fffff0;  */
+  background-color: #252525;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a0d1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #005f7b;
+}
+
 header{
     width: 100%;
     padding: 15px 10px;
@@ -100,4 +122,45 @@ nav .logo{
 .mainSection .img-content img{
     width: 100%;
     border-radius: 20px;
+}
+
+.aboutSection{
+    background-color: #252525;
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutSection .img-content{
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 25px 1px #00a0d1;
+}
+.aboutSection .img-content img{
+    width: 100%;
+    border-radius: 20px;
+}
+.aboutSection .text-content{
+    width: 50%;
+}
+.aboutSection .text-content h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+.aboutSection .text-content h2 span{
+    color: #00a0d1;
+}
+.aboutSection .text-content h3{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.aboutSection .text-content p{
+    font-size: 1.5rem;
+    color: #fff;
 }
