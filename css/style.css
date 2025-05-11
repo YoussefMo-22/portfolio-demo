@@ -164,3 +164,64 @@ nav .logo{
     font-size: 1.5rem;
     color: #fff;
 }
+
+.projectsSection{
+    padding: 70px 50px;
+}
+.projectsSection h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #25252567;
+    margin-bottom: 70px;
+}
+.projectsSection .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.projectsSection .container .card{
+    background-color: #25252567;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.projectsSection .container .card .img-content{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.projectsSection .container .card .img-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.projectsSection .container .card h3{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.projectsSection .container .card p{
+    font-size: medium;
+}
+.projectsSection .container .card .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.projectsSection .container .card .links a{
+    text-decoration: none;
+    color: #00a0d1;
+    font-size: 1.2rem;
+}
