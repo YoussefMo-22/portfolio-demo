@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,83 +7,95 @@
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  /* box-shadow: inset 0 0 5px #fffff0;  */
-  background-color: #252525;
+    /* box-shadow: inset 0 0 5px #fffff0;  */
+    background-color: #252525;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00a0d1;
+    background: #00a0d1;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #005f7b;
+    background: #005f7b;
 }
 
-header{
+header {
     width: 100%;
     padding: 15px 10px;
     background-color: #252525;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-ul{
+
+ul {
     list-style: none;
 }
-ul li{
+
+ul li {
     display: inline-block;
     margin: 0 20px;
 }
-ul li a{
+
+ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
     transition: 0.3s;
 }
-ul li a:hover{
+
+ul li a:hover {
     color: #00a0d1;
     text-decoration: underline;
 }
-nav .logo{
+
+nav .logo {
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.mainSection{
+.mainSection {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 70px 50px;
 }
-.mainSection .text-content{
+
+.mainSection .text-content {
     width: 50%;
 }
-.mainSection .text-content .hi{
+
+.mainSection .text-content .hi {
     font-size: 2.5rem;
     font-weight: bold;
 }
-.mainSection .text-content h1{
+
+.mainSection .text-content h1 {
     font-size: 4rem;
     font-weight: bold;
 }
-.mainSection .text-content h1 span{
+
+.mainSection .text-content h1 span {
     color: #00a0d1;
 }
-.mainSection .text-content .para{
+
+.mainSection .text-content .para {
     font-size: 1.2rem;
     font-weight: 700;
 }
-.mainSection .text-content button{
+
+.mainSection .text-content button {
     padding: 15px 30px;
     border-radius: 12px;
     border: 0;
@@ -92,26 +104,31 @@ nav .logo{
     margin-top: 20px;
     background-color: #00a0d1;
     cursor: pointer;
-        color: #fff;
+    color: #fff;
     text-decoration: none;
     animation: bounce 1s ease 3s infinite normal none running;
     transition: 0.3s;
 }
-.mainSection .text-content button:hover{
+
+.mainSection .text-content button:hover {
     background-color: #005f7b;
 }
+
 @keyframes bounce {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.1);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
-.mainSection .img-content{
+
+.mainSection .img-content {
     width: 30%;
     border-radius: 20px;
     display: flex;
@@ -119,12 +136,13 @@ nav .logo{
     justify-content: center;
     box-shadow: 2px 3px 25px 1px;
 }
-.mainSection .img-content img{
+
+.mainSection .img-content img {
     width: 100%;
     border-radius: 20px;
 }
 
-.aboutSection{
+.aboutSection {
     background-color: #252525;
     padding: 100px 50px;
     display: flex;
@@ -132,7 +150,7 @@ nav .logo{
     justify-content: space-around;
 }
 
-.aboutSection .img-content{
+.aboutSection .img-content {
     width: 30%;
     border-radius: 20px;
     display: flex;
@@ -140,48 +158,57 @@ nav .logo{
     justify-content: center;
     box-shadow: 2px 3px 25px 1px #00a0d1;
 }
-.aboutSection .img-content img{
+
+.aboutSection .img-content img {
     width: 100%;
     border-radius: 20px;
 }
-.aboutSection .text-content{
+
+.aboutSection .text-content {
     width: 50%;
 }
-.aboutSection .text-content h2{
+
+.aboutSection .text-content h2 {
     font-size: 3rem;
     font-weight: bold;
     color: #fff;
 }
-.aboutSection .text-content h2 span{
+
+.aboutSection .text-content h2 span {
     color: #00a0d1;
 }
-.aboutSection .text-content h3{
+
+.aboutSection .text-content h3 {
     font-size: 4.5rem;
     font-weight: bold;
     color: #fff;
 }
-.aboutSection .text-content p{
+
+.aboutSection .text-content p {
     font-size: 1.5rem;
     color: #fff;
 }
 
-.projectsSection{
+.projectsSection {
     padding: 70px 50px;
 }
-.projectsSection h2{
+
+.projectsSection h2 {
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
     color: #A7A7A7;
     margin-bottom: 70px;
 }
-.projectsSection .container{
+
+.projectsSection .container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
 }
-.projectsSection .container .card{
+
+.projectsSection .container .card {
     background-color: #A7A7A7;
     padding: 10px 20px;
     border-radius: 20px;
@@ -192,7 +219,8 @@ nav .logo{
     align-items: center;
     justify-content: space-between;
 }
-.projectsSection .container .card .img-content{
+
+.projectsSection .container .card .img-content {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -200,60 +228,72 @@ nav .logo{
     display: flex;
     align-items: center;
 }
-.projectsSection .container .card .img-content img{
+
+.projectsSection .container .card .img-content img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
 }
-.projectsSection .container .card h3{
+
+.projectsSection .container .card h3 {
     margin: 10px 0;
     font-weight: bold;
 }
-.projectsSection .container .card p{
+
+.projectsSection .container .card p {
     font-size: medium;
 }
-.projectsSection .container .card .links{
+
+.projectsSection .container .card .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
 }
-.projectsSection .container .card .links a{
+
+.projectsSection .container .card .links a {
     text-decoration: none;
     color: #00a0d1;
     font-size: 1.2rem;
 }
-.contactSection{
+
+.contactSection {
     background-color: #252525;
     padding: 100px 50px;
 }
-.contactSection h2{
+
+.contactSection h2 {
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
     color: #A7A7A7;
     margin-bottom: 70px;
 }
-.contactSection form{
+
+.contactSection form {
     margin: 0 auto;
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.contactSection form input, .contactSection form textarea{
+
+.contactSection form input,
+.contactSection form textarea {
     padding: 25px 15px;
     border-radius: 10px;
     border: 0;
     color: #00a0d1;
 }
-.contactSection form .btn{
+
+.contactSection form .btn {
     width: 100%;
     text-align: center;
 }
-.contactSection form .btn button{
+
+.contactSection form .btn button {
     padding: 15px 70px;
     background-color: #00a0d1;
     color: #fff;
@@ -263,15 +303,43 @@ nav .logo{
     border-radius: 10px;
     font-size: 1.2rem;
 }
-.contactSection form .btn button:hover{
+
+.contactSection form .btn button:hover {
     background-color: #005f7b;
 }
-footer{
+
+footer {
     background-color: #00a0d1;
     padding: 30px 0;
     text-align: center;
 }
-footer p{
+
+footer p {
     color: #fff;
     font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+    .mainSection,
+    .aboutSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mainSection .text-content,
+    .aboutSection .text-content {
+        width: 100%;
+    }
+
+    .mainSection .img-content,
+    .aboutSection .img-content {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .projectsSection .container {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
